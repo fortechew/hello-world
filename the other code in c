@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+  int price=0;
+  printf("please inset an amount for price");
+  scanf("%d",price);
+  int amount=0
+  printf("how much would you want to buy?");
+  scanf("%d",amount);
+  printf("here are %d yuan",amount-price);
+    
+  return 0;
+}
